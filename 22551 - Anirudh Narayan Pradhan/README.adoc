@@ -4,7 +4,58 @@
 [options="header"]
 |=========================================================
 | Date | Title | Difficulty | Topics | Notes
-    | 10/10/2023 | link:codes\1071703057_all-paths-from-source-to-target.cpp[&#128193;] https://leetcode.com/problems/all-paths-from-source-to-target[797.All Paths From Source to Target] | [.yellow-background. black]#*Medium*# | Backtracking , Depth-First Search , Breadth-First Search , Graph | 30 mins +
+    | 22/12/2023 | link:codes\1125776998_reverse-linked-list.cpp[&#128193;] https://leetcode.com/problems/reverse-linked-list[206.Reverse Linked List] | [.green-background. black]#*Easy*# | Linked List , Recursion | use 3 pointers to store the previous current and the next position in a linked list point next to the current next, current next to the previous, change previous to the current and current to next. loop until current becomes NULL. +
+Time taken 5 mins +
+Time complexity: O(n) +
+Space complexity:O(1)| 22/12/2023 | link:codes\1125775792_reverse-linked-list.cpp[&#128193;] https://leetcode.com/problems/reverse-linked-list[206.Reverse Linked List] | [.green-background. black]#*Easy*# | Linked List , Recursion | | 22/12/2023 | link:codes\1125773568_palindrome-linked-list.cpp[&#128193;] https://leetcode.com/problems/palindrome-linked-list[234.Palindrome Linked List] | [.green-background. black]#*Easy*# | Linked List , Two Pointers , Stack , Recursion | find the middle of the list then reverse the second part and then check the two parts of the list +
+Time taken 5 mins +
+Time complexity: O(n) +
+Space complexity: O(1)| 22/12/2023 | link:codes\1125734218_merge-two-sorted-lists.cpp[&#128193;] https://leetcode.com/problems/merge-two-sorted-lists[21.Merge Two Sorted Lists] | [.green-background. black]#*Easy*# | Linked List , Recursion | create a new linkedlist so that the merged list is stored in it. +
+Time taken 5 mins +
+Time complexity: O(n) +
+Space Complexity: O(1)| 22/12/2023 | link:codes\1125657201_maximum-score-after-splitting-a-string.cpp[&#128193;] https://leetcode.com/problems/maximum-score-after-splitting-a-string[1422.Maximum Score After Splitting a String] | [.green-background. black]#*Easy*# | String | use a pointer that points to the character that separates the first and the last string count the number of zeros in the first part and the number of ones in the second part and get the sum +
+Time taken 10 mins +
+time complexity: O(n^2) +
+Space complexity: O(1)| 22/12/2023 | link:codes\1125651410_maximum-score-after-splitting-a-string.cpp[&#128193;] https://leetcode.com/problems/maximum-score-after-splitting-a-string[1422.Maximum Score After Splitting a String] | [.green-background. black]#*Easy*# | String | split the string to two parts and then get the sum for each part separately +
+time taken 10 mins +
+time complexity O(n^2) +
+space complexity: O(n^2)| 21/12/2023 | link:codes\1124975986_middle-of-the-linked-list.cpp[&#128193;] https://leetcode.com/problems/middle-of-the-linked-list[876.Middle of the Linked List] | [.green-background. black]#*Easy*# | Linked List , Two Pointers | used a fast and a slow pointer such that the fast pointer moves 2 positions whereas the last pointer moves one position. When the fast pointer reaches NULL or has its next as NULL then the slow pointer is pointing to the middle of the linked list +
+Time taken 5 mins +
+Time complexity : O(n) +
+Space Complexity: O(1)| 21/12/2023 | link:codes\1124963463_linked-list-cycle.cpp[&#128193;] https://leetcode.com/problems/linked-list-cycle[141.Linked List Cycle] | [.green-background. black]#*Easy*# | Hash Table , Linked List , Two Pointers | used 2 pointers one fast and one slow. if the second pointer goes to NULL anytime then return false. inside the loop if the both pointers point to the same node then return true +
+Time taken : 5 Min +
+Time complexity: O(n) +
+Space Complexity: O(1)| 21/12/2023 | link:codes\1124902649_best-time-to-buy-and-sell-stock.cpp[&#128193;] https://leetcode.com/problems/best-time-to-buy-and-sell-stock[121.Best Time to Buy and Sell Stock] | [.green-background. black]#*Easy*# | Array , Dynamic Programming | find the cheapest price at which the stock can be bought and as we iterate through the array, get the max difference between the element and the cheapest. +
+Time taken : 5 mins +
+Time complexity: O(n) +
+Space complexity:O(1)| 21/12/2023 | link:codes\1124807807_widest-vertical-area-between-two-points-containing-no-points.cpp[&#128193;] https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points[1637.Widest Vertical Area Between Two Points Containing No Points] | [.yellow-background. black]#*Medium*# | Array , Sorting | create temporary vector containing the 0th position elements of the given pairs and sort it. Return the max difference between the elements of the array. +
+Time taken: 10 mins +
+Time complexity: O(nlogn) +
+Space complexity: O(n)| 21/12/2023 | link:codes\1124804506_widest-vertical-area-between-two-points-containing-no-points.cpp[&#128193;] https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points[1637.Widest Vertical Area Between Two Points Containing No Points] | [.yellow-background. black]#*Medium*# | Array , Sorting | | 20/12/2023 | link:codes\1124337143_missing-number.cpp[&#128193;] https://leetcode.com/problems/missing-number[268.Missing Number] | [.green-background. black]#*Easy*# | Array , Hash Table , Math , Binary Search , Bit Manipulation , Sorting | Sort the array and iterate over from 0 to the last element inside the loop check if the iterator is equal to the element at the iterator position. if not then the missing number is the iterator.  if no number is found then return the last element +1. +
+Time taken 5 mins +
+Time complexity: O(nlogn +n) +
+Space Complexity: O(1) +
+| 20/12/2023 | link:codes\1123898626_buy-two-chocolates.cpp[&#128193;] https://leetcode.com/problems/buy-two-chocolates[2706.Buy Two Chocolates] | [.green-background. black]#*Easy*# | Array , Sorting | find the 2 minimums in the array and then if the sum is greater than the money return money or else return the difference between money and the sum of the two minimums. +
+Time taken: 5 mins +
+Time complexity: O(n) +
+Space complexity: O(1)| 19/12/2023 | link:codes\1123471856_climbing-stairs.cpp[&#128193;] https://leetcode.com/problems/climbing-stairs[70.Climbing Stairs] | [.green-background. black]#*Easy*# | Math , Dynamic Programming , Memoization | the total number of combinations possible is the number at the nth fibonacci series +
+time taken 10 mins +
+time complexity: O(n) +
+Space:O(1)| 18/12/2023 | link:codes\1122713603_contains-duplicate.cpp[&#128193;] https://leetcode.com/problems/contains-duplicate[217.Contains Duplicate] | [.green-background. black]#*Easy*# | Array , Hash Table , Sorting | sort and while moving through the list, check if there 2 elements are same or not +
+Time taken: 5 mins +
+Time: Sorting:(nlogn) searching(n) +
+Space: O(1)| 18/12/2023 | link:codes\1122263669_maximum-product-difference-between-two-pairs.cpp[&#128193;] https://leetcode.com/problems/maximum-product-difference-between-two-pairs[1913.Maximum Product Difference Between Two Pairs] | [.green-background. black]#*Easy*# | Array , Sorting | first searched for the 2 maxs then searched for the 2 mins then did the computation +
+time taken 15 mins +
+time complexity: O(n) +
+space complexity: O(1)| 16/12/2023 | link:codes\1120753743_valid-anagram.cpp[&#128193;] https://leetcode.com/problems/valid-anagram[242.Valid Anagram] | [.green-background. black]#*Easy*# | Hash Table , String , Sorting | sort both the strings and compare the 2 sorted strings +
+Time taken: 10 mins +
+Time: O(nlogn + n) +
+Space: O(1)| 15/12/2023 | link:codes\1120435890_destination-city.cpp[&#128193;] https://leetcode.com/problems/destination-city[1436.Destination City] | [.green-background. black]#*Easy*# | Array , Hash Table , String | | 14/12/2023 | link:codes\1119679199_difference-between-ones-and-zeros-in-row-and-column.cpp[&#128193;] https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column[2482.Difference Between Ones and Zeros in Row and Column] | [.yellow-background. black]#*Medium*# | Array , Matrix , Simulation | | 13/12/2023 | link:codes\1118925113_special-positions-in-a-binary-matrix.cpp[&#128193;] https://leetcode.com/problems/special-positions-in-a-binary-matrix[1582.Special Positions in a Binary Matrix] | [.green-background. black]#*Easy*# | Array , Matrix | | 12/12/2023 | link:codes\1117774237_maximum-product-of-two-elements-in-an-array.cpp[&#128193;] https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array[1464.Maximum Product of Two Elements in an Array] | [.green-background. black]#*Easy*# | Array , Sorting , Heap (Priority Queue) | Sort and take the last 2 largest digits and multiply after subtracting 1 from each +
+Time: O(nlogn) +
+Space: O(1)| 12/10/2023 | link:codes\1073121480_letter-combinations-of-a-phone-number.cpp[&#128193;] https://leetcode.com/problems/letter-combinations-of-a-phone-number[17.Letter Combinations of a Phone Number] | [.yellow-background. black]#*Medium*# | Hash Table , String , Backtracking | 45 mins +
+Time: O(n) +
+Space:O(n) +
+Every time I get an index I iterate through it and get all the possible solutions.| 10/10/2023 | link:codes\1071703057_all-paths-from-source-to-target.cpp[&#128193;] https://leetcode.com/problems/all-paths-from-source-to-target[797.All Paths From Source to Target] | [.yellow-background. black]#*Medium*# | Backtracking , Depth-First Search , Breadth-First Search , Graph | 30 mins +
 Time: O(n) +
 Space: O(n2) +
 need to check if the target is reached | 07/10/2023 | link:codes\1069050344_letter-case-permutation.cpp[&#128193;] https://leetcode.com/problems/letter-case-permutation[784.Letter Case Permutation] | [.yellow-background. black]#*Medium*# | String , Backtracking , Bit Manipulation | | 06/10/2023 | link:codes\1068639004_binary-tree-paths.cpp[&#128193;] https://leetcode.com/problems/binary-tree-paths[257.Binary Tree Paths] | [.green-background. black]#*Easy*# | String , Backtracking , Tree , Depth-First Search , Binary Tree | 10 mins  +
